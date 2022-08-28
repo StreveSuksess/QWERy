@@ -1,0 +1,45 @@
+.intro {
+  min-height: 1200px;
+}
+
+.intro_inner {
+  max-width: 950px;
+  margin: auto;
+  position: relative;
+  top: 267px;
+}
+
+.intro_suptitle {
+  margin-bottom: 32px;
+  &::before {
+    content: "";
+    background-color: #ffc178;
+    width: 72px;
+    height: 2px;
+    margin-right: 32px;
+    display: inline-block;
+    position: relative;
+    top: -5px;
+  }
+}
+.intro_title {
+  margin-bottom: 130px;
+}
+.intro_scroll {
+  text-align: center;
+  display: block;
+  .intro_scroll_text {
+    &::after {
+      content: "";
+      display: inline-block;
+      width: 16px;
+      height: 24px;
+      background: url(/assets/images/intro_images/arrowDown.svg);
+      fill: currentColor;
+      margin-left: 9px;
+      position: absolute;
+      top: 3px;
+    }
+    position: relative;
+  }
+}
