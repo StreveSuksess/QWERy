@@ -1,0 +1,149 @@
+.fz24 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.fz18 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+
+  color: #ffffff;
+  @include breakpoint($mobile-bp) {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+.fz17 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 23px;
+
+  color: #ffffff;
+}
+
+.fz64 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 87px;
+
+  color: #ffffff;
+  @include breakpoint($mobile-bp) {
+    font-size: 40px;
+    line-height: 60px;
+  }
+}
+
+.fz18 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+
+  color: #ffffff;
+}
+
+.fz48 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 65px;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+
+.fz36 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 49px;
+  letter-spacing: -0.3px;
+
+  color: #ffffff;
+}
+
+.fz19 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 0px;
+
+  letter-spacing: -0.204545px;
+
+  color: #ffffff;
+}
+
+.fz15 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+
+  letter-spacing: -0.204545px;
+
+  color: #ffffff;
+}
+
+.fz_intro {
+  font-family: Open Sans;
+  font-style: normal;
+  font-size: 96px;
+  line-height: 100px;
+
+  text-transform: capitalize;
+
+  color: #ffffff;
+  @include breakpoint($mobile-bp) {
+    font-size: 70px;
+  }
+  @include breakpoint($mini_mobile-bp) {
+    font-size: 50px;
+    line-height: 80px;
+  }
+}
+
+.fyellow {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+
+  letter-spacing: 6px;
+  text-transform: uppercase;
+
+  color: #ffc178;
+}
+
+.ffooterLT {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 0px;
+
+  letter-spacing: -0.231818px;
+
+  color: #ffd1a0;
+}
